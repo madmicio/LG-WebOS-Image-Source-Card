@@ -1,0 +1,6 @@
+{
+"name": "LG WebOS image source viewer",
+"content_in_root": true,
+"filename": "webos-source-image",
+"render_readme" : true
+}
