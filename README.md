@@ -70,7 +70,6 @@ type: 'custom:webos-source-image'
 
   ```yaml
 entity: media_player.lg_webos_tv_oled55c8pla
-projector: binary_sensor.proiettore_on_off
 hdmi_list:
   - hdmi: HDMI 1
     mediaplayer: media_player.proiettore
