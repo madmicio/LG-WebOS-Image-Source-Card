@@ -63,3 +63,19 @@ the card needs image files to work, but if you intend to use it, it means that y
 
  
 [find the procedure for the images here]([https://github.com/PiotrMachowski](https://github.com/madmicio/LG-WebOS-Remote-Control))
+
+# Config ex.
+
+type: 'custom:webos-source-image'
+
+  ```yaml
+entity: media_player.lg_webos_tv_oled55c8pla
+projector: binary_sensor.proiettore_on_off
+hdmi_list:
+  - hdmi: HDMI 1
+    mediaplayer: media_player.proiettore
+  - hdmi: Marantz
+    mediaplayer: media_player.marantz_sr6010
+  - hdmi: HDMI 3
+    mediaplayer: media_player.soggiorno
+```
